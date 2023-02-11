@@ -16,7 +16,7 @@ export default function Home() {
       </Head>
       <main>
         <div className="grid h-screen place-items-center">
-          <div className="card lg:card-side bg-base-100 shadow-xl max-w-2xl max-h-100">
+          <div className="card lg:card-side bg-base-100 shadow-xl max-w-2xl max-h-100 ">
             <div className='basis-1/2'>
             <figure>
               <img
