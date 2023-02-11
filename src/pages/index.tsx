@@ -16,6 +16,7 @@ export default function Home() {
       </Head>
       <main>
         <div>Ini Makanan</div>
+        <div>Ini Minuman</div>
       </main>
     </>
   )
