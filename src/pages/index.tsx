@@ -25,8 +25,11 @@ export default function Home() {
               />
             </figure>
             <div className="card-body">
-              <h2 className="card-title">New album is released!</h2>
-              <p>Click the button to listen on Spotiwhy app.</p>
+              <h2 className="font-bold text-3xl">Login Joko</h2>
+            <form>
+            
+
+            </form>
               <div className="card-actions justify-end">
                 <button className="btn btn-primary">Listen</button>
               </div>
