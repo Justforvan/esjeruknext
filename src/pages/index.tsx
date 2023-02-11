@@ -17,7 +17,7 @@ export default function Home() {
       <main>
       <div className='grid h-screen place-items-center'>
       <div className="card lg:card-side bg-base-100 shadow-xl">
-      <figure><img src="/images/stock/photo-1494232410401-ad00d5433cfa.jpg" alt="Album"/></figure>
+      <figure><img src="https://previews.123rf.com/images/rglinsky/rglinsky1201/rglinsky120100188/12336990-vertical-oriented-image-of-famous-eiffel-tower-in-paris-france-.jpg" className='w-60 h-30' alt="Album"/></figure>
       <div className="card-body">
        <h2 className="card-title">New album is released!</h2>
     <p>Click the button to listen on Spotiwhy app.</p>
