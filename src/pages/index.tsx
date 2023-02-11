@@ -2,6 +2,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import { Inter } from '@next/font/google'
 import styles from '@/styles/Home.module.css'
+import LoginForm from './components/login-form'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -25,11 +26,7 @@ export default function Home() {
               />
             </figure>
             <div className="card-body">
-              <h2 className="font-bold text-3xl">Login Joko</h2>
-            
-              <div className="card-actions justify-end">
-                <button className="btn btn-primary">Listen</button>
-              </div>
+              <LoginForm/>
             </div>
           </div>
         </div>
