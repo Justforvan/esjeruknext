@@ -15,19 +15,24 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main>
-      <div className='grid h-screen place-items-center'>
-      <div className="card lg:card-side bg-base-100 shadow-xl">
-      <figure><img src="https://previews.123rf.com/images/rglinsky/rglinsky1201/rglinsky120100188/12336990-vertical-oriented-image-of-famous-eiffel-tower-in-paris-france-.jpg" className='w-30 h-60' alt="Album"/></figure>
-      <div className="card-body">
-       <h2 className="card-title">New album is released!</h2>
-    <p>Click the button to listen on Spotiwhy app.</p>
-    <div className="card-actions justify-end">
-      <button className="btn btn-primary">Listen</button>
-    </div>
-  </div>
-</div>
-      </div>        <div>Ini Makanan</div>
-        <div>Ini Minuman</div>
+        <div className="grid h-screen place-items-center">
+          <div className="card lg:card-side bg-base-100 shadow-xl">
+            <figure>
+              <img
+                src="https://previews.123rf.com/images/rglinsky/rglinsky1201/rglinsky120100188/12336990-vertical-oriented-image-of-famous-eiffel-tower-in-paris-france-.jpg"
+                className="w-30 h-60"
+                alt="Album"
+              />
+            </figure>
+            <div className="card-body">
+              <h2 className="card-title">New album is released!</h2>
+              <p>Click the button to listen on Spotiwhy app.</p>
+              <div className="card-actions justify-end">
+                <button className="btn btn-primary">Listen</button>
+              </div>
+            </div>
+          </div>
+        </div>
       </main>
     </>
   );
