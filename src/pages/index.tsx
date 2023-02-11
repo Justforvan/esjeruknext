@@ -20,7 +20,7 @@ export default function Home() {
             <div className='basis-1/2'>
             <figure>
               <img
-                src="https://www.splashlearn.com/math-vocabulary/wp-content/uploads/2022/05/image5-888x1024.jpg"
+                src="https://images.pexels.com/photos/6605311/pexels-photo-6605311.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
                 className="max-h-fit rounded-l-lg"
                 alt="Album"
               />

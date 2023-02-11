@@ -5,7 +5,7 @@ export default function LoginForm(){
           <form>
             <h1 className="h3 mb-3 fw-normal">Please sign in</h1>
 
-            <div className="form-floating">
+            <div className="form-floating mt-4">
               <label htmlFor="floatingInput">Email address</label>
               <input
                 type="email"
@@ -14,7 +14,7 @@ export default function LoginForm(){
                 placeholder="name@example.com"
               />
             </div>
-            <div className="form-floating">
+            <div className="form-floating mt-4">
               <label htmlFor="floatingPassword">Password</label>
               <input
                 type="password"
@@ -24,7 +24,7 @@ export default function LoginForm(){
               />
             </div>
 
-            <div>
+            <div className="mt-2">
               <label>
                 <label className="label cursor-pointer">
                   <span className="label-text">Remember me</span>
@@ -32,7 +32,7 @@ export default function LoginForm(){
                 </label>
               </label>
             </div>
-            <button className="btn" type="submit">
+            <button className="btn mt-4" type="submit">
               Sign in
             </button>
           </form>
